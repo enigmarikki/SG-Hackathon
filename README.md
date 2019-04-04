@@ -31,5 +31,6 @@ Te-2	Closed with explanation
 Te-3	Closed with explanation
 Te-4	Closed with non-monetary relief
 Te-5	Closed with explanation
+
 Evaluation
 The submissions will be evaluated on the f1 score with ‘weighted’ average.
