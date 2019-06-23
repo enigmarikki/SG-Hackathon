@@ -146,13 +146,11 @@ traincpy_summary_es = [clean_summary(i, 'spanish') for i in train_summary_es]
 
 testcpy_summary_es = [clean_summary(i , 'spanish') for i in test_summary_es]
 
-traincp_summary_en = [traincpy_summary_en[i].lower() for i in range(len(traincpy_summary_en))]
-
-testcp_summary_en = [testcpy_summary_en[i].lower() for i in range(len(testcpy_summary_en))]
-
 lensummary_es = [ len(i) for i in traincpy_summary_es ]  
 lensummary_fr = [ len(i) for i in traincpy_summary_fr ]
 lensummary_en = [ len(i) for i in traincpy_summary_en ]
+
+#Splitting the dataset based on the language i.e en, es or fr
 df_train_en = pd.DataFrame()
 df_train_fr = pd.DataFrame()
 df_train_es = pd.DataFrame()
